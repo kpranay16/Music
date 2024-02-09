@@ -29,7 +29,7 @@ function playing(track){
 
 
 async function main(){
-Array.from(document.querySelector(".card").getElementsByClassName("c1")).forEach(e=>{
+Array.from(document.querySelector(".card-container").getElementsByClassName("c1")).forEach(e=>{
     e.addEventListener("click",elem=>{
 
         console.log(e.querySelector("p1").innerHTML);
